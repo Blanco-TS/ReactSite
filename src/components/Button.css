@@ -1,0 +1,283 @@
+:root {
+    --primary: #29518E;
+  }
+  
+  .btn {
+    padding: 8px 20px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn--primary {
+    background: transparent;
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+  }
+  
+  .btn--outline {
+    background: transparent;
+    color: #fff;
+    padding: 8px 20px;
+    border: 1px solid white;
+    transition: all 0.3s ease-out;
+  }
+
+  .btn--nav {
+    background: transparent;
+    color: #fff;
+    padding: 6px 20px;
+    border: 1px solid white;
+    transition: all 0.3s ease-out;
+  }
+  
+  .btn--leg {
+    background: transparent;
+    color: rgb(255, 255, 255);
+    padding: 6px 20px;
+    border: 1px solid white;
+    transition: all 0.3s ease-out;
+    text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
+             1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+  }
+
+  .btn--illeg {
+    background: transparent;
+    color: #fff;
+    padding: 6px 20px;
+    border: 1px solid white;
+    transition: all 0.3s ease-out;
+    text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
+             1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+  }
+
+  .btn--etat {
+    background: transparent;
+    color: #fff;
+    padding: 6px 20px;
+    border: 1px solid white;
+    transition: all 0.3s ease-out;
+    text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
+             1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+  }
+  .btn--medium {
+    padding: 8px 20px;
+    font-size: 18px;
+  }
+  
+  .btn--large {
+    padding: 12px 26px;
+    font-size: 30px;
+    border-radius: 10px;
+  }
+  .btn--large2 {
+    padding: 12px 26px;
+    font-size: 30px;
+    border-radius: 10px;
+  }
+  .btn--large3 {
+    padding: 12px 26px;
+    font-size: 30px;
+    border-radius: 10px;
+  }
+  .btn--small {
+    padding: 12px 26px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
+             1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+  }
+  .btn--large:hover{
+    transition: all 0.3s ease-out;
+    background: #093028;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #237A57, #093028);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #237A57, #093028); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: #ffffff;
+    transition: 250ms;
+  }
+  .btn--large2:hover{
+    transition: all 0.3s ease-out;
+    background: #a73737;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #7a2828, #a73737);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #7a2828, #a73737); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #ffffff;
+    transition: 250ms;
+  }
+  .btn--large3:hover{
+    transition: all 0.3s ease-out;
+    background: #2C3E50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #ffffff;
+    transition: 250ms;
+  }
+  .btn--small:hover,
+  .btn--medium:hover {
+    transition: all 0.3s ease-out;
+    background: white;
+    color: #000000;
+    transition: 250ms;
+    text-shadow: 2px 0 white, -2px 0 white, 0 2px white, 0 -2px white,
+             1px 1px white, -1px -1px white, 1px -1px white, -1px 1px white;
+  }
+
+  
+  /*CONCESS*/
+
+  .btn--voiture {
+    padding: 12px 26px;
+    font-size: 15px;
+    border-radius: 10px;
+  }
+
+  .btn--voiture:hover{
+    transition: all 0.3s ease-out;
+    background: rgba(255, 255, 255, 255);
+    color: #000000;
+    transition: 250ms;
+    text-shadow: 2px 0 white, -2px 0 white, 0 2px white, 0 -2px white,
+             1px 1px white, -1px -1px white, 1px -1px white, -1px 1px white;
+  }
+
+  .btn--voitureuse {
+    padding: 12px 26px;
+    font-size: 15px;
+    border-radius: 10px;
+  }
+
+  .btn--voitureuse:hover{
+    transition: all 0.3s ease-out;
+    background: rgba(255, 255, 255, 0);
+    color: #ffffff;
+    transition: 250ms;
+    border: 1px solid rgb(163, 165, 30);
+  }
+
+
+  .btn--compact {
+    background: transparent;
+    color: #fff;
+    padding: 6px 20px;
+    border: 1px solid white;
+    transition: all 0.3s ease-out;
+    text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
+             1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+  }
+
+  .btn--compactuse {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 6px 20px;
+    border: 1px solid rgb(77, 77, 77);
+    transition: all 0.3s ease-out;
+  }
+  
+  .btn--sedans {
+    background: transparent;
+    color: #fff;
+    padding: 6px 20px;
+    border: 1px solid white;
+    transition: all 0.3s ease-out;
+    text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
+             1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+  }
+
+  .btn--sedansuse {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 6px 20px;
+    border: 1px solid rgb(77, 77, 77);
+    transition: all 0.3s ease-out;
+  }
+
+  .btn--coupe {
+    background: transparent;
+    color: #fff;
+    padding: 6px 20px;
+    border: 1px solid white;
+    transition: all 0.3s ease-out;
+    text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
+             1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+  }
+
+  .btn--coupeuse {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 6px 20px;
+    border: 1px solid rgb(77, 77, 77);
+    transition: all 0.3s ease-out;
+  }
+
+  .btn--suvs {
+    background: transparent;
+    color: #fff;
+    padding: 6px 20px;
+    border: 1px solid white;
+    transition: all 0.3s ease-out;
+    text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
+             1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+  }
+
+  .btn--suvsuse {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 6px 20px;
+    border: 1px solid rgb(77, 77, 77);
+    transition: all 0.3s ease-out;
+  }
+
+  .btn--sport {
+    background: transparent;
+    color: #fff;
+    padding: 6px 20px;
+    border: 1px solid white;
+    transition: all 0.3s ease-out;
+    text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
+             1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+  }
+
+  .btn--sportuse {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 6px 20px;
+    border: 1px solid rgb(77, 77, 77);
+    transition: all 0.3s ease-out;
+  }
+
+  .btn--sportc {
+    background: transparent;
+    color: #fff;
+    padding: 6px 20px;
+    border: 1px solid white;
+    transition: all 0.3s ease-out;
+    text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
+             1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+  }
+
+  .btn--sportcuse {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 6px 20px;
+    border: 1px solid rgb(77, 77, 77);
+    transition: all 0.3s ease-out;
+  }
+
+  .btn--lowrider {
+    background: transparent;
+    color: #fff;
+    padding: 6px 20px;
+    border: 1px solid white;
+    transition: all 0.3s ease-out;
+    text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
+             1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+  }
+
+  .btn--lowrideruse {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 6px 20px;
+    border: 1px solid rgb(77, 77, 77);
+    transition: all 0.3s ease-out;
+  }
